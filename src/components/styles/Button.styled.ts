@@ -1,11 +1,6 @@
 import styled from "styled-components";
 
-interface IButtonProps {
-  bg: any;
-  color: any;
-};
-
-export default styled.button<IButtonProps>`
+export default styled.button<{bg?: any}>`
   border-radius: 50px;
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
